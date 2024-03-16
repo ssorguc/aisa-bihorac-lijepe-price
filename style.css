@@ -1,0 +1,423 @@
+body {
+  margin: 0;
+  font-family: "Glass Antiqua", cursive;
+}
+
+.bijela{
+  color:white
+}
+
+/*Fontovi*/
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.glass-antiqua-regular {
+  font-family: "Glass Antiqua", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.abel-regular {
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*COLOR
+rgb(108, 34, 166), ljubicasta tamnija
+rgb(105, 98, 173), ljubicasta 2
+rgb(131, 192, 193), zelena
+rgb(150, 233, 198) strong green
+
+*/
+
+
+
+/*pravougaonik cijeli*/
+.nav-bar {
+  background: #3980ac;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-bottom: 25px;
+  display: flex;
+}
+
+/*img tag logo slike*/
+.logo-img {
+  height: 40px;
+}
+
+/*div logo slike*/
+.nav-logo {
+  width: 10%;
+}
+
+/*div o nama*/
+.nav-about,
+.nav-sadrzaj,
+.nav-jezik,
+.nav-home {
+  width: 20%;
+  text-align: center;
+  display: grid;
+  align-items: center;
+}
+
+.dropdown {
+  width: 20%;
+}
+
+/*a tag*/
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+
+}
+
+.nav-link:hover {
+  color: #7ab9bd;
+  font-size: 20px;
+  transition:all 2s;
+}
+
+.nav-dropdown {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+/* header dio*/
+.header {
+  height: 100vh;
+  background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  padding-top: 10%;
+  text-align: center;
+  font-family: "Glass Antiqua", cursive;
+  color: white;
+  font-size: 100px;
+}
+
+.header p {
+
+  color: white;
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
+  padding-left: 20%;
+  padding-right: 20%;
+
+
+}
+
+.pocetni {
+  display: inline-block;
+  outline: 0;
+  text-align: center;
+  cursor: pointer;
+  padding: 17px 30px;
+  border: 0;
+  color: #fff;
+  font-size: 17.5px;
+  background-color: #ad76db;
+  line-height: 30px;
+  font-weight: 800;
+  transition: background, color .1s ease-in-out;
+  box-shadow: 0 25.6px 57.6px 0 rgb(0 0 0 / 22%), 0 4.8px 14.4px 0 rgb(0 0 0 / 18%);
+
+}
+
+.footer {
+  height: 240px;
+  background-color: #a7cdcd;
+  color: #f6f3f7;
+  margin: 0;
+  padding: 70px 50px 0px 100px;
+}
+
+.footer-linkovi {
+  display: block;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+/*linija za odvajanje*/
+.hl {
+  height: 1px;
+  background-color: rgb(255, 255, 255, 0.3);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.footer h2 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/*Nav bar*/
+
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #71c1a6;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #dee2e7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #c47878;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #a2cdfb;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.vanjski {
+  display: flex;
+
+}
+
+.unutrasnji {
+  flex: 1;
+}
+
+.naslovna-slika {
+  width: 200px;
+  margin-bottom: 30px;
+  animation-name: fade-in;
+  animation-duration: 3s;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.citaj {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  background-color: #a17fe0;
+  cursor: pointer;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 10px;
+  font-size: 18px;
+  text-decoration: none;
+  width: 30%;
+}
+
+.okvir-price {
+  padding: 80px;
+  background-image: url("assets/pokusaj.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  border: 3px solid pink;
+  margin: 60px
+}
+
+
+
+.button {
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+/* button styling */
+.button {
+  --border-right: 6px;
+  --text-stroke-color: rgba(255, 255, 255, 0.6);
+  --animation-color: #d438ff;
+  --fs-size: 2em;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+
+/* this is the text, when you hover on button */
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+
+/* hover */
+.button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color))
+}
+
+#naslov {
+
+  animation-name: primjer;
+  animation-duration: 5s;
+
+}
+
+@keyframes primjer {
+  from {
+    color: #d07688;
+    font-size:12px;
+  }
+
+  to {
+    color: #f0efef;
+    font-size: 26px;
+  }
+}
+
+
+.o-nama{
+  font-size: 30px;
+ 
+  animation-name: primjer;
+    animation-duration: 5s;
+
+  }
+
+  @keyframes primjer {
+    from {
+      color: #ce7af5;
+      font-size:12px;
+    }
+
+    to {
+      color: #ffffff;
+      font-size: 26px;
+    }
+
+
+  
+}
+
+@keyframes primjer2{
+  0%{
+    background-color: #dd8d8d;
+  }
+25%{
+  background-color: #df81a6;
+}
+  75%{
+    background-color:#bd8992;
+  }
+  100%{
+    background-color: #f0efef;
+  }
+}
+
+.o-nama-box{
+  font-size: 30px;
+  width: 700px;
+  text-align: center;
+
+
+   
+  animation-name: primjer2;
+  animation-duration: 5s ;
+}
+
+@keyframes fade-in{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+.fade-in-div{
+  opacity: 50%;
+}
+
+.fade-in-div:hover{
+  opacity:100;
+  transition:opacity 1s
+}

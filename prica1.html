@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Glass+Antiqua&family=Pacifico&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!--NAV BAR-->
+  <div class="nav-bar">
+    <div class="nav-logo">
+      <img class="logo-img " src="assets/knjiga.png">
+    </div>
+    <div class="nav-home">
+      <a class="nav-link" href="index.html">Home</a>
+    </div>
+
+    <div class="nav-about">
+      <a class="nav-link" href="o-nama.html">O nama</a>
+    </div>
+    <div class="nav-sadrzaj">
+      <a class="nav-link" href="kategorija.html"></a>
+    </div>
+    <div class="nav-jezik">
+      <a class="nav-link" href="o-nama.html"></a>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Sve price
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="prica1.html">Crvenkapica</a>
+        <a href="svePrice.html">Ružno pače</a>
+        <a href="svePrice.html">Snjeguljica i 7 patuljaka</a>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="vanjski okvir-price">
+    <div class="unutrasnji">
+      <h1 class="bijela">Crvenkapica</h1>
+      <p class="bijela" id="tekst-prica1"> Jednom i ne tako davno, živjela je jedna dobra, mala djevojčica. Svi su je
+        voljeli jer je
+        bila
+        jako umiljata, ali najviše ju je voljela njezina baka. Svaki put kad bi ju vidjela, baka bi svojoj dragoj unuci
+        dala jedan mali dar. Jednom joj je tako darovala lijepu kapicu napravljenu od crvenog baršuna. Djevojčici se
+        jako
+        svidjela njena nova kapica pa ju je stalno nosila. Stajala joj je kao salivena. Upravo zbog toga, djevojčica je
+        postala poznata kao Crvenkapica. Jednog dana, majka je rekla Crvenkapici da uzme košaru s namirnicama i odnese
+        je
+        svojoj baki. Baka je bila bolesna i slaba, pa ju je majka zamolila da joj odnese juhu i topli čaj, jer će tako
+        baka brže ozdraviti.Prije nego je krenula, majka ju je još jednom upozorila da dobro pazi i da nikako ne skreće
+        sa
+        šumskog puta. Ako skrene s puta mogla bi zalutati, mogla bi pasti i razbiti košaru, pa neće ništa ostati za
+        bolesnu baku.</p>
+    </div>
+    <div class="unutrasnji">
+      <img id="slika-prica1" src="assets/pozadinan.jpg" height="200px">
+    </div>
+    <div class="unutrasnji">
+
+
+      <button onclick="crvenkapica.otvoriStranicu()" class="button" data-text="Awesome">
+        <span class="actual-text">&nbsp;Sljedeća stranica&nbsp;</span>
+        <span aria-hidden="true" class="hover-text">&nbsp;Sljedeća stranica &nbsp;</span>
+      </button>
+
+    </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
